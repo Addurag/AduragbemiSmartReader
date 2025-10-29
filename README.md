@@ -1,2 +1,1 @@
-# AduragbemiSmartReader
-A web app that reads, summarizes, and answers questions from PDFs
+Frontend: React + Vite. Run `npm install` then `npm run dev`.

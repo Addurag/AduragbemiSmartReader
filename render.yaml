@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: aduragbemi-smart-reader
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: backend/Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    envVars:
+      - key: TZ
+        value: Africa/Lagos
